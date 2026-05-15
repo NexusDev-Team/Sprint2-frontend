@@ -7,9 +7,6 @@ const modos = document.querySelectorAll(".modo");
 const video = document.getElementById("cameraVideo");
 
 
-// ============================
-// CAMERA REAL
-// ============================
 
 async function iniciarCamera() {
 
@@ -33,10 +30,6 @@ async function iniciarCamera() {
 
 iniciarCamera();
 
-
-// ============================
-// IA
-// ============================
 
 const mensagensIA = {
 
