@@ -17,6 +17,7 @@ async function iniciarCamera() {
         });
 
         video.srcObject = stream;
+        video.style.transform = "scaleX(-1)"; // Corrige espelhamento da câmera frontal
 
     } catch (erro) {
 
